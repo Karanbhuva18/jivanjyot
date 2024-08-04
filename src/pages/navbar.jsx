@@ -9,7 +9,7 @@ const Navbar = () => {
         <p className="text-[30px] md:text-[40px] text-[#1A8EFD] font-semibold">
           JivanJyot
         </p>
-        <div className="hidden md:flex space-x-8 font-sans">
+        <div className="hidden md:flex space-x-8 font-sans lg:text-2xl">
           <span>Home</span>
           <span>Service</span>
           <span>About</span>
