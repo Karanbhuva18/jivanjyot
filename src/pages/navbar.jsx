@@ -16,11 +16,11 @@ const Navbar = () => {
           <span>Reviews</span>
           <span>Doctors</span>
         </div>
-        <button className="hidden md:block bg-[#1A8EFD] p-2 rounded-md text-white">
+        <button className="hidden md:block bg-[#1A8EFD] p-3 rounded-2xl text-white">
           LiveChat
         </button>
         <button
-          className="md:hidden text-[#1A8EFD] focus:outline-none"
+          className="md:hidden text-[#1A8EFD]  focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           <svg
